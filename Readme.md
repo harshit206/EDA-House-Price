@@ -7,12 +7,6 @@ The aim of this presentation is to explain the Exploratory Data Analysis process
 ## Definition
 It is the process of analyzing, learning useful information, and formulating new questions about a population based on the dataset at hand. In EDA, we use a combination of libraries; Pandas is one of them which is used for manipulating the data and it is open-source. 
 
-## Libraries Used:
-1. Numpy: It's a library consisting of multidimensional array objects and a collection of routines for processing those arrays.
-2. Pandas: Used for data manipulation and analysis.
-3. Scipy: Used for calculating basic statistics
-4. Matplotlib and Seaborn: For data vizualization 
-
 ## Common Steps in EDA
 1. We first start with loading the data into a pandas data frame.
 2. Initially, we check the shape of data which gives us the number of rows and columns in our data frame. 
@@ -30,30 +24,11 @@ It is an important part of EDA and we extensively plot data points to visually u
 ## Data
 We have used the [House Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) dataset from Kaggle. The dataset consists of possible features that might impact the sale price of the house. 
 
-## Few code snippets for performing common steps in EDA
-1. Check the shape of data
+## Libraries Used:
+1. Numpy: Used for processing multidimensional array objects and a collection of routines .
+2. Pandas: Used for data manipulation and analysis.
+3. Scipy: Used for calculating basic statistics
+4. Matplotlib and Seaborn: USed for data vizualization 
 
-```
-print("Number of observations:", df.shape[0])
-print("Number of features:", df.shape[1])
-```
 
-2. Check the datatype of each column
-```
-df.dtypes
-```
 
-3. To generate horizontal bar plot for missing values
-```
-fig, ax = plt.subplots(1, 1, figsize=(8, 6))
-
-sns.barplot(x=missing.values, y=missing.index, palette='viridis')
-
-plt.xlabel('Proportion of Null Values', color='black', fontsize=12)
-plt.title("Columns containing NULL Values", fontsize=15, weight='bold')
-plt.ylabel("Column Names", color='black', fontsize=12)
-
-ax.spines['top'].set_visible(False)
-ax.spines['right'].set_visible(False)
-plt.show()
-```
