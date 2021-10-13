@@ -75,9 +75,9 @@ Let’s say, we are interested in fitting a linear regression model to understan
 Using a heatmap, we can estimate that the ground living area of a house has a strong correlation to its sale price. As for the issues of multicollinearity, it can be observed that the number of cars that can fit in a garage is strongly correlated to the garage area, which makes sense. Hence, we have identified an example of multicollinearity here.
 
 # Usage
-Download the house price dataset from [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
+1. Download the house price dataset from [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
 
-To run the notebook, please install the following libraries via `pip` command. 
+2. To run the notebook, please install the following libraries via `pip` command. 
 
 ```
 pip install numpy
