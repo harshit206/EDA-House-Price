@@ -56,7 +56,10 @@ We can see that the median and quartile values of house sale prices increase for
 
 ## Heatmaps
 If we are analyzing a dataset for a descriptive purpose or for fitting a model like linear regression, we would be interested in knowing how different numerical variables in a dataset correlate with each other. In addition, we would be especially interested in knowing the correlation of different variables with the target variable under study. Heatmap can provide a color-coded summarised view of all the correlations between variables.
+
 ![Heatmap](https://github.com/harshit206/EDA-House-Price/blob/main/plots/heatmap.png)
 
 Let’s say, we are interested in fitting a linear regression model to understand how the house sale price of a house is related to other features and also check if the issue of multicollinearity exists among the predictive variables. 
+Using a heatmap, we can estimate that the ground living area of a house has a strong correlation to its sale price. As for the issues of multicollinearity, it can be observed that the number of cars that can fit in a garage is strongly correlated to the garage area, which makes sense. Hence, we have identified an example of multicollinearity here.
+
 
