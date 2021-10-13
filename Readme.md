@@ -18,8 +18,8 @@ We have used the [House Prices](https://www.kaggle.com/c/house-prices-advanced-r
 ## Libraries Used:
 1. Numpy: Used for processing multidimensional array objects and a collection of routines.
 2. Pandas: Used for data manipulation and analysis.
-3. Scipy: Used for calculating basic statistics
-4. Matplotlib and Seaborn: Used for data vizualization 
+3. Scipy: Used for calculating basic statistics.
+4. Matplotlib and Seaborn: Used for data vizualization.
 
 ## Process
 1. We first start by loading the house price dataset into a pandas data frame.
