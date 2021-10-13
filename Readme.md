@@ -30,7 +30,7 @@ It is an important part of EDA and we extensively plot data points to visually u
 ## Data
 We have used the [House Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) dataset from Kaggle. The dataset consists of possible features that might impact the sale price of the house. 
 
-## Code Examples
+## Few code snippets for performing common steps in EDA
 1. Check the shape of data
 
 ```
@@ -43,4 +43,17 @@ print("Number of features:", df.shape[1])
 df.dtypes
 ```
 
-3.
+3. To generate horizontal bar plot for missing values
+```
+fig, ax = plt.subplots(1, 1, figsize=(8, 6))
+
+sns.barplot(x=missing.values, y=missing.index, palette='viridis')
+
+plt.xlabel('Proportion of Null Values', color='black', fontsize=12)
+plt.title("Columns containing NULL Values", fontsize=15, weight='bold')
+plt.ylabel("Column Names", color='black', fontsize=12)
+
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+plt.show()
+```
