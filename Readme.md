@@ -1,10 +1,10 @@
 # Exploratory Data Analysis with Pandas
-The aim of this presentation is to explain the Exploratory Data Analysis process with Pandas to the students of the MSDS program and demonstrate the same through real world example. We also discuss the importance of Data Vizualizatin which is a key componenent in EDA to make the process streamline and easily analyze data using wonderful plots and charts.
+This presentation aims to explain the Exploratory Data Analysis process with Pandas to the students of the MSDS program and demonstrate the same through a real-world case study. We also discuss the importance of Data Visualization, a key component in EDA. It helps in analyzing the data using wonderful plots and charts. 
 
 ![EDA](https://github.com/harshit206/EDA-House-Price/blob/main/plots/263-2637092_data-analytics-exploratory-data-analysis-icon.png)
 
 
-> Exploratory data analysis is an attitude, a state of flexibility, a willingness to look for those things that we believe are not there, as well as the things we believe might be there - John Tukey, as quoted in “Nonparametric statistical data modeling".
+> Exploratory data analysis is an attitude, a state of flexibility, a willingness to look for those things that we believe are not there, as well as the things we believe might be there - John Tukey.
 
 ## Definition
 It is the process of analyzing, learning useful information, and formulating new questions about a population based on the dataset at hand. In EDA, we use a combination of libraries; Pandas is one of them which is used for manipulating the data and it is open-source. 
