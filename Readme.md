@@ -1,1 +1,3 @@
-Exploratory Data Analysis with Pandas
+#1 **Exploratory Data Analysis with Pandas**
+
+Introduction
