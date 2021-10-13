@@ -21,13 +21,14 @@ It is the process of analyzing, learning useful information, and formulating new
 5. Most of the time, datasets have missing values; therefore, it is necessary to check null values and inspect the possible reasons why those values are missing. 
 6.  It is also important to ensure that numeric features are scaled and normalized so that they contribute proportionally to the ML algorithms at the time of     fitting data. Additionally, we also process our categorical variables and encode them.
 
-Visualization is an important part of EDA and we extensively plot data points to visually understand our data better. 
+### Data Visualization
+It is an important part of EDA and we extensively plot data points to visually understand our data better. 
 1. Boxplots and scatterplots are used to detect outliers in the dataset 
 2. We use histogram plots to check the distribution of our numeric features which basically gives the frequency of variables in an interval.
 3. Oftentimes, we want to check how numeric features behave with each other; in this regard, scatter plots are used to determine relationships between them. 
 
 ## Data
-We have used the House Prices dataset from Kaggle. The dataset consists of possible features that might impact the sale price of the house. 
+We have used the [House Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) dataset from Kaggle. The dataset consists of possible features that might impact the sale price of the house. 
 
 ## Code Examples
 1. Check the shape of data
