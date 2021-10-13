@@ -30,6 +30,7 @@ Visualization is an important part of EDA and we extensively plot data points to
 We have used the House Prices dataset from Kaggle. The dataset consists of possible features that might impact the sale price of the house. 
 
 ## Code Examples
-1. Checking the shape of data
-`print("Number of observations:", df.shape[0])
-print("Number of features:", df.shape[1])`
+1. Checking the shape of data 
+
+`print("Number of observations:", df.shape[0])`
+`print("Number of features:", df.shape[1])`
