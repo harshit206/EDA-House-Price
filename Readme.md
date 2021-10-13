@@ -38,3 +38,25 @@ Bar plots are used to represent the relationship between a categorical variable 
 
 ![BarPLot](https://github.com/harshit206/EDA-House-Price/blob/main/plots/horizontal_bar_chart_null_values.png)
 
+In our project, we have used a horizontal bar plot to visualize the number of null values in different variables of the house price dataset. Sorting the bars makes it easier to spot variables with a maximum and a minimum number of null values.
+
+## Scatter Plots
+Scatter plots are used to visualise the relationship between two numerical variables. The dots on the scatter plot represent the values of the data point for the numerical variables under study. The relationship could be positive or negative, linear or non-linear, etc. and such different natures of the relationship can be inferred using scatter plots.
+
+![ScatterPLot](https://github.com/harshit206/EDA-House-Price/blob/main/plots/scatter_plot1.png)
+
+For example, in our project, we have used a scatter plot to check the nature of the relationship between the ground living area of a house and its sale price.
+
+## Box Plots
+A boxplot is a way of displaying the distribution of data based on a five-number summary: minimum, first quartile (Q1), median, third quartile (Q3), and maximum. It helps us to understand how the values are distributed. 
+
+![Box Plot](https://github.com/harshit206/EDA-House-Price/blob/main/plots/box_plot1.png)
+In our project, we have used a box plot to check how house sale prices are distributed for each level of the overall quality of the house. 
+We can see that the median and quartile values of house sale prices increase for all levels of overall quality. Also, the distribution of house sale prices is more dispersed for the overall quality level of 10 as compared to other levels.
+
+## Heatmaps
+If we are analyzing a dataset for a descriptive purpose or for fitting a model like linear regression, we would be interested in knowing how different numerical variables in a dataset correlate with each other. In addition, we would be especially interested in knowing the correlation of different variables with the target variable under study. Heatmap can provide a color-coded summarised view of all the correlations between variables.
+![Heatmap](https://github.com/harshit206/EDA-House-Price/blob/main/plots/heatmap.png)
+
+Let’s say, we are interested in fitting a linear regression model to understand how the house sale price of a house is related to other features and also check if the issue of multicollinearity exists among the predictive variables. 
+
