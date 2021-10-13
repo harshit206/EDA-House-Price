@@ -9,13 +9,8 @@ This presentation aims to explain the Exploratory Data Analysis process with Pan
 ## Definition
 It is the process of analyzing, learning useful information, and formulating new questions about a population based on the dataset at hand. In EDA, we use a combination of libraries; Pandas is one of them which is used for manipulating the data and it is open-source. 
 
-## Common Steps in EDA
-1. We first start with loading the data into a pandas data frame.
-2. Initially, we check the shape of data which gives us the number of rows and columns in our data frame. 
-3. We check the data types of columns and ensure that they are of the correct type.
-4. In case the column names are confusing, we rename them to improve the readability of the dataset.
-5. Most of the time, datasets have missing values; therefore, it is necessary to check null values and inspect the possible reasons why those values are missing. 
-6.  It is also important to ensure that numeric features are scaled and normalized so that they contribute proportionally to the ML algorithms at the time of     fitting data. Additionally, we also process our categorical variables and encode them.
+## Project Description
+We have performed Exploratory Data Analysis to gain insights on how various factors affect the sale price of a house through data visualization and basic statistics.
 
 ## Data
 We have used the [House Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) dataset from Kaggle. The dataset consists of possible features that might impact the sale price of the house. 
@@ -25,6 +20,14 @@ We have used the [House Prices](https://www.kaggle.com/c/house-prices-advanced-r
 2. Pandas: Used for data manipulation and analysis.
 3. Scipy: Used for calculating basic statistics
 4. Matplotlib and Seaborn: Used for data vizualization 
+
+## Process
+1. We first start by the loading the house price dataset into a pandas data frame.
+2. Initially, we check the shape of data which gives us the number of observations and features in our data frame. 
+3. We check the data types of columns and ensure that they are of the correct type. We identify numerical and categorical variables of the house price dataset. 
+4. Most of the time, datasets have missing values; therefore, it is necessary to check null values. We have identified columns having more than 20% null values and dropped columns containing more than 80% null values.
+5. We have employed different visualization techniques to study the dataset and generate useful insights about sale price of a house.  
+
 
 # Data Visualization
 It is an important part of EDA and we extensively plot data points to visually understand our data better. 
@@ -70,5 +73,19 @@ Let’s say, we are interested in fitting a linear regression model to understan
 
 
 Using a heatmap, we can estimate that the ground living area of a house has a strong correlation to its sale price. As for the issues of multicollinearity, it can be observed that the number of cars that can fit in a garage is strongly correlated to the garage area, which makes sense. Hence, we have identified an example of multicollinearity here.
+
+# Usage
+Download the house price dataset from [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
+
+To run the notebook, please install the following libraries via `pip` command. 
+
+'''
+pip install numpy
+pip install pandas
+pip install scipy
+pip install matplotlib
+pip install seaborn
+```
+
 
 
