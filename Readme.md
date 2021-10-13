@@ -79,7 +79,7 @@ Download the house price dataset from [here](https://www.kaggle.com/c/house-pric
 
 To run the notebook, please install the following libraries via `pip` command. 
 
-'''
+```
 pip install numpy
 pip install pandas
 pip install scipy
