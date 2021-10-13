@@ -22,11 +22,11 @@ We have used the [House Prices](https://www.kaggle.com/c/house-prices-advanced-r
 4. Matplotlib and Seaborn: Used for data vizualization 
 
 ## Process
-1. We first start by the loading the house price dataset into a pandas data frame.
+1. We first start by loading the house price dataset into a pandas data frame.
 2. Initially, we check the shape of data which gives us the number of observations and features in our data frame. 
 3. We check the data types of columns and ensure that they are of the correct type. We identify numerical and categorical variables of the house price dataset. 
 4. Most of the time, datasets have missing values; therefore, it is necessary to check null values. We have identified columns having more than 20% null values and dropped columns containing more than 80% null values.
-5. We have employed different visualization techniques to study the dataset and generate useful insights about sale price of a house.  
+5. We have employed different visualization techniques to study the dataset and generate useful insights about the sale price of a house.  
 
 
 # Data Visualization
@@ -77,7 +77,7 @@ Using a heatmap, we can estimate that the ground living area of a house has a st
 # Usage
 1. Download the house price dataset from [here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
 
-2. To run the notebook, please install the following libraries via `pip` command. 
+2. To run the notebook, please install the following libraries via the `pip` command. 
 
 ```
 pip install numpy
