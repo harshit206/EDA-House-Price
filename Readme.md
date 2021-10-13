@@ -4,7 +4,7 @@ The aim of this presentation is to explain the Exploratory Data Analysis process
 ![EDA](https://github.com/harshit206/EDA-House-Price/blob/main/plots/263-2637092_data-analytics-exploratory-data-analysis-icon.png)
 
 
-> Exploratory data analysis is an attitude, a state of flexibility, a willingness to look for those things that we believe are not there, as well as the things we believe might be there - John Tukey, as quoted in “Nonparametric statistical data modeling: comment.” J Am Stat Assoc 1979, 74, 121-122.
+> Exploratory data analysis is an attitude, a state of flexibility, a willingness to look for those things that we believe are not there, as well as the things we believe might be there - John Tukey, as quoted in “Nonparametric statistical data modeling".
 
 ## Definition
 It is the process of analyzing, learning useful information, and formulating new questions about a population based on the dataset at hand. In EDA, we use a combination of libraries; Pandas is one of them which is used for manipulating the data and it is open-source. 
