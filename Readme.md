@@ -32,6 +32,7 @@ We have used the House Prices dataset from Kaggle. The dataset consists of possi
 ## Code Examples
 1. Checking the shape of data 
 
-`print("Number of observations:", df.shape[0])`
-
-`print("Number of features:", df.shape[1])`
+```
+print("Number of observations:", df.shape[0])
+print("Number of features:", df.shape[1])
+```
