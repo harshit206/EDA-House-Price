@@ -21,7 +21,7 @@ It is the process of analyzing, learning useful information, and formulating new
 We have used the [House Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) dataset from Kaggle. The dataset consists of possible features that might impact the sale price of the house. 
 
 ## Libraries Used:
-1. Numpy: Used for processing multidimensional array objects and a collection of routines .
+1. Numpy: Used for processing multidimensional array objects and a collection of routines.
 2. Pandas: Used for data manipulation and analysis.
 3. Scipy: Used for calculating basic statistics
 4. Matplotlib and Seaborn: Used for data vizualization 
@@ -39,7 +39,7 @@ In our project, we have used a horizontal bar plot to visualize the number of nu
 
 
 ## Scatter Plots
-Scatter plots are used to visualise the relationship between two numerical variables. The dots on the scatter plot represent the values of the data point for the numerical variables under study. The relationship could be positive or negative, linear or non-linear, etc. and such different natures of the relationship can be inferred using scatter plots.
+Scatter plots are used to visualize the relationship between two numerical variables. The dots on the scatter plot represent the values of the data point for the numerical variables under study. The relationship could be positive or negative, linear or non-linear, etc. and such different natures of the relationship can be inferred using scatter plots.
 
 For example, in our project, we have used a scatter plot to check the nature of the relationship between the ground living area of a house and its sale price.
 
