@@ -28,7 +28,13 @@ We have used the [House Prices](https://www.kaggle.com/c/house-prices-advanced-r
 1. Numpy: Used for processing multidimensional array objects and a collection of routines .
 2. Pandas: Used for data manipulation and analysis.
 3. Scipy: Used for calculating basic statistics
-4. Matplotlib and Seaborn: USed for data vizualization 
+4. Matplotlib and Seaborn: Used for data vizualization 
 
+# Data Visualization
+It is an important part of EDA and we extensively plot data points to visually understand our data better. 
 
+## Bar Plots
+Bar plots are used to represent the relationship between a categorical variable and a numerical variable. Each bar represents a category and the height/length of the bar represents the measured value for that category. The bars in bar plots can be plotted horizontally or vertically. It is important to sort the bars as it becomes easy to gain insights from the visualization. 
+
+![BarPLot](https://github.com/harshit206/EDA-House-Price/blob/main/plots/horizontal_bar_chart_null_values.png)
 
