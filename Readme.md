@@ -7,7 +7,7 @@ The aim of this presentation is to explain the Exploratory Data Analysis process
 ## Definition
 It is the process of analyzing, learning useful information, and formulating new questions about a population based on the dataset at hand. In EDA, we use a combination of libraries; Pandas is one of them which is used for manipulating the data and it is open-source. 
 
-## Liraries Used:
+## Libraries Used:
 1. Numpy: It's a library consisting of multidimensional array objects and a collection of routines for processing those arrays.
 2. Pandas: Used for data manipulation and analysis.
 3. Scipy: Used for calculating basic statistics
@@ -25,3 +25,11 @@ Visualization is an important part of EDA and we extensively plot data points to
 1. Boxplots and scatterplots are used to detect outliers in the dataset 
 2. We use histogram plots to check the distribution of our numeric features which basically gives the frequency of variables in an interval.
 3. Oftentimes, we want to check how numeric features behave with each other; in this regard, scatter plots are used to determine relationships between them. 
+
+## Data
+We have used the House Prices dataset from Kaggle. The dataset consists of possible features that might impact the sale price of the house. 
+
+## Code Examples
+1. Checking the shape of data
+`print("Number of observations:", df.shape[0])
+print("Number of features:", df.shape[1])`
